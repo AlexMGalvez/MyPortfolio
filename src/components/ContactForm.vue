@@ -7,7 +7,7 @@
     </p>
     <div class="row">
       <div class="col-8 col-12-small">
-        <form method="post" action="#">
+        <form @submit.prevent="sendEmail" id="form1">
           <div class="row gtr-uniform gtr-50">
             <div class="col-6 col-12-xsmall">
               <input type="text" name="name" id="name" placeholder="Name" />
@@ -26,7 +26,7 @@
           </div>
         </form>
         <ul class="actions">
-          <li><input type="submit" value="Send Message" /></li>
+          <li><input type="submit" value="Send Message" form="form1"/></li>
         </ul>
       </div>
       <div class="col-4 col-12-small">
@@ -57,3 +57,21 @@
     </div>
   </section>
 </template>
+
+<script>
+import emailjs from 'emailjs-com';
+
+export default {
+  methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm('service_oqzssfh', 'template_4mv15p8', e.target, 'user_pKI4L2oq2PTghoyAoFdLt')
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+        }, (error) => {
+            console.log('FAILED...', error);
+        });
+        e.target.reset();
+    }
+  }
+}
+</script>

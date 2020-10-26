@@ -7,8 +7,8 @@
       </h2>
     </header>
     <p>
-      My specializtion is in Node.js and Vue, but other technologies that I have
-      experience with in relation to web development includes MySql, WordPress,
+      My specializtion is with Node.js and Vue, but other technologies that I have
+      experience with in relation to web development are MySql, WordPress,
       and Bootstrap 4.
     </p>
   </section>
