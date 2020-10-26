@@ -6,9 +6,7 @@
         ><img src="images/avatar.jpg" alt=""
       /></a>
       <h1>
-        <strong>I am Strata</strong>, a super simple<br />
-        responsive site template freebie<br />
-        crafted by <a href="http://html5up.net">HTML5 UP</a>.
+        <strong>Alex Galvez's Webpage</strong><br />
       </h1>
     </div>
   </header>
@@ -19,21 +17,14 @@
     <section id="one">
       <header class="major">
         <h2>
-          Ipsum lorem dolor aliquam ante commodo<br />
-          magna sed accumsan arcu neque.
+          I am Alex Galvez,<br />
+          Full Stack Web Developer
         </h2>
       </header>
       <p>
-        Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi
-        lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis
-        tortor primis integer massa adipiscing id nisi accumsan pellentesque
-        commodo blandit enim arcu non at amet id arcu magna. Accumsan orci
-        faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque
-        cubilia.
+        My specializtion is in Node.js and Vue, but other technologies that I have experience with in relation to web development includes MySql, 
+        WordPress, and Bootstrap 4.
       </p>
-      <ul class="actions">
-        <li><a href="#" class="button">Learn More</a></li>
-      </ul>
     </section>
 
     <!-- Two -->
@@ -41,11 +32,10 @@
 
     <!-- Three -->
     <section id="three">
-      <h2>Get In Touch</h2>
+      <h2>Contact me</h2>
       <p>
-        Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-        magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-        vulputate lorem neque lorem ipsum dolor.
+        If you have any enquiries, fill out the form below and you'll 
+        receive a response promptly.
       </p>
       <div class="row">
         <div class="col-8 col-12-small">
@@ -82,21 +72,20 @@
               <h3 class="icon solid fa-home">
                 <span class="label">Address</span>
               </h3>
-              1234 Somewhere Rd.<br />
-              Nashville, TN 00000<br />
-              United States
+              Kithener, Ontario<br />
+              Canada
             </li>
             <li>
               <h3 class="icon solid fa-mobile-alt">
                 <span class="label">Phone</span>
               </h3>
-              000-000-0000
+              519-502-8307
             </li>
             <li>
               <h3 class="icon solid fa-envelope">
                 <span class="label">Email</span>
               </h3>
-              <a href="#">hello@untitled.tld</a>
+              <a href="mailto:AlexMarkGalvez@hotmail.com">AlexMarkGalvez@hotmail.com</a>
             </li>
           </ul>
         </div>
@@ -104,7 +93,7 @@
     </section>
 
     <!-- Four -->
-    <!--
+    
 					<section id="four">
 						<h2>Elements</h2>
 
@@ -419,30 +408,30 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</section>
 
 					</section>
-				-->
+				
   </div>
 
   <!-- Footer -->
   <footer id="footer">
     <div class="inner">
       <ul class="icons">
-        <li>
+        <!-- <li>
           <a href="#" class="icon brands fa-twitter"
             ><span class="label">Twitter</span></a
           >
-        </li>
+        </li> -->
         <li>
-          <a href="#" class="icon brands fa-github"
+          <a href="https://github.com/AlexMGalvez" class="icon brands fa-github"
             ><span class="label">Github</span></a
           >
         </li>
-        <li>
+        <!-- <li>
           <a href="#" class="icon brands fa-dribbble"
             ><span class="label">Dribbble</span></a
           >
-        </li>
+        </li> -->
         <li>
-          <a href="#" class="icon solid fa-envelope"
+          <a href="mailto:AlexMarkGalvez@hotmail.com" class="icon solid fa-envelope"
             ><span class="label">Email</span></a
           >
         </li>
@@ -453,14 +442,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
       </ul>
     </div>
   </footer>
-
-  <!-- Scripts -->
-  <!-- <script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script> -->
 </template>
 
 <script>
@@ -474,13 +455,3 @@ export default {
 };
 </script>
 
-<style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
-</style>
