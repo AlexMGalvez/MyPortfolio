@@ -7,9 +7,7 @@
       </h2>
     </header>
     <p>
-      My specializtion is with Node.js and Vue, but other technologies that I have
-      experience with in relation to web development are MySql, WordPress,
-      and Bootstrap 4.
+      My skill set is best presented through Node.js and Vue, but other technologies that I have experience with in relation to web development are MySql, WordPress, and Bootstrap 4.
     </p>
   </section>
 </template>
