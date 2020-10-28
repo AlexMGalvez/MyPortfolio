@@ -2,10 +2,6 @@
   <header id="header">
     <the-canvas/>
     <!-- <div class="inner">
-      <a href="#" class="image avatar"
-        ><img src="images/avatar.jpg" alt=""
-      /></a>
-      <h1><strong>Alex Galvez's Webpage</strong><br /></h1>
       <ul class="icons">
         <li>
           <a href="https://github.com/AlexMGalvez" class="icon brands fa-github"
