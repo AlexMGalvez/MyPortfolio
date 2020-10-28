@@ -2,7 +2,7 @@
   <section id="one">
     <header class="major">
       <h2>
-        I am Alex Galvez,<br />
+        I am <strong id="name">Alex Galvez</strong>,<br />
         Full Stack Web Developer
       </h2>
     </header>
@@ -11,3 +11,9 @@
     </p>
   </section>
 </template>
+
+<style scoped>
+#name {
+  color: #B4FAB4;
+}
+</style>
