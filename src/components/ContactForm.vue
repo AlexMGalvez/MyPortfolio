@@ -1,4 +1,5 @@
 <template>
+  <flash-message class="messageSent"></flash-message>
   <section id="three">
     <h2>Contact me</h2>
     <p>
@@ -26,7 +27,7 @@
           </div>
         </form>
         <ul class="actions">
-          <li><input type="submit" value="Send Message" form="form1"/></li>
+          <li><input type="submit" value="Send Message" form="form1" /></li>
         </ul>
       </div>
       <div class="col-4 col-12-small">
@@ -64,14 +65,15 @@ import emailjs from 'emailjs-com';
 export default {
   methods: {
     sendEmail: (e) => {
-      emailjs.sendForm('service_oqzssfh', 'template_4mv15p8', e.target, 'user_pKI4L2oq2PTghoyAoFdLt')
-        .then((result) => {
-            console.log('SUCCESS!', result.status, result.text);
-        }, (error) => {
-            console.log('FAILED...', error);
-        });
-        e.target.reset();
+        emailjs.sendForm('service_oqzssfh', 'template_4mv15p8', e.target, 'user_pKI4L2oq2PTghoyAoFdLt')
+          .then((result) => {
+              console.log('SUCCESS!', result.status, result.text);
+          }, (error) => {
+              console.log('FAILED...', error);
+          });
+          e.target.reset();
+      alert('Your mail is sent!');
     }
   }
-}
+};
 </script>

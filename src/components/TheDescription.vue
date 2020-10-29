@@ -7,13 +7,31 @@
       </h2>
     </header>
     <p>
-      My skill set is best presented through Node.js and Vue, but other technologies that I have experience with in relation to web development are MySql, WordPress, and Bootstrap 4.
+      My skill set is best presented through Node.js and Vue.js, but other
+      technologies that I have experience with in relation to web development
+      are MySql, WordPress, and Bootstrap4.
     </p>
+    <div class="inner">
+      <ul class="icons">
+        <li>
+          <a href="https://github.com/AlexMGalvez" class="icon brands fa-github"
+            ><span class="label">Github</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="mailto:AlexMarkGalvez@hotmail.com"
+            class="icon solid fa-envelope"
+            ><span class="label">Email</span></a
+          >
+        </li>
+      </ul>
+    </div>
   </section>
 </template>
 
 <style scoped>
 #name {
-  color: #B4FAB4;
+  color: #b4fab4;
 }
 </style>
