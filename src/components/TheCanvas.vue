@@ -66,7 +66,7 @@ export default {
         this.render = function () {
           this.symbols.forEach(function (symbol) {
             if (symbol.first) {
-                p5.fill(195, 211, 101);
+                p5.fill(172, 181, 121);
             } else {
                 p5.fill(158, 161, 142);
             }

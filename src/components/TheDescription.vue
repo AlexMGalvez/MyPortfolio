@@ -32,6 +32,6 @@
 
 <style scoped>
 #name {
-  color:rgb(195, 211, 101);
+  color:rgb(172, 181, 121);
 }
 </style>
