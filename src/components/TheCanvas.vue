@@ -49,7 +49,7 @@ export default {
 
       function Stream() {
         this.symbols = [];
-        this.totalSymbols = p5.round(p5.random(5, 30));
+        this.totalSymbols = p5.round(p5.random(5, 20));
         this.speed = p5.random(5, 20);
 
         this.generateSymbols = function (x, y) {
