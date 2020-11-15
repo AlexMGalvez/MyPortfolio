@@ -66,6 +66,12 @@
               >AlexMarkGalvez@hotmail.com</a
             >
           </li>
+          <li>
+            <h3 class="icon brands fa-github">
+              <span class="label">Github</span>
+            </h3>
+            <a href="https://github.com/AlexMGalvez">AlexMGalvez</a>
+          </li>
         </ul>
       </div>
     </div>

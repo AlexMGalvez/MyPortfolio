@@ -2,6 +2,7 @@
   <the-canvas/>
   <div id="main">
     <the-description></the-description>
+	<my-technologies></my-technologies>
     <the-portfolio></the-portfolio>
 	<contact-form></contact-form>
 	<div class="spacer"></div>
@@ -11,6 +12,7 @@
 <script>
 import TheCanvas from "./components/TheCanvas.vue";
 import TheDescription from "./components/TheDescription.vue";
+import MyTechnologies from "./components/MyTechnologies.vue";
 import ThePortfolio from "./components/ThePortfolio.vue";
 import ContactForm from "./components/ContactForm.vue";
 
@@ -19,6 +21,7 @@ export default {
   components: {
 	TheCanvas,
 	TheDescription,
+	MyTechnologies,
 	ThePortfolio,
 	ContactForm
   },

@@ -7,11 +7,11 @@
       </h2>
     </header>
     <p>
-      My skill set is best presented through Node.js and Vue.js, but other
-      technologies that I have experience with in relation to web development
-      are MySql, WordPress, and Bootstrap4.
+      As both a university and self taught programmer, my focus in web
+      development is on producing sites that not only look good, but function
+      well.
     </p>
-    <div class="inner">
+    <!-- <div class="inner">
       <ul class="icons">
         <li>
           <a href="https://github.com/AlexMGalvez" class="icon brands fa-github"
@@ -26,12 +26,12 @@
           >
         </li>
       </ul>
-    </div>
+    </div> -->
   </section>
 </template>
 
 <style scoped>
 #name {
-  color:#31A2AC;
+  color: #31A2AC;
 }
 </style>
