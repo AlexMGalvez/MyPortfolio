@@ -11,13 +11,26 @@
         <form @submit.prevent="sendEmail" id="form1">
           <div class="row gtr-uniform gtr-50">
             <div class="col-6 col-12-xsmall">
-              <input type="text" name="name" id="name" placeholder="Name" />
+              <input
+                class="input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+              />
             </div>
             <div class="col-6 col-12-xsmall">
-              <input type="email" name="email" id="email" placeholder="Email" />
+              <input
+                class="input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+              />
             </div>
             <div class="col-12">
               <textarea
+                class="input"
                 name="message"
                 id="message"
                 placeholder="Message"
@@ -60,20 +73,35 @@
 </template>
 
 <script>
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 
 export default {
   methods: {
     sendEmail: (e) => {
-        emailjs.sendForm('service_oqzssfh', 'template_4mv15p8', e.target, 'user_pKI4L2oq2PTghoyAoFdLt')
-          .then((result) => {
-              console.log('SUCCESS!', result.status, result.text);
-          }, (error) => {
-              console.log('FAILED...', error);
-          });
-          e.target.reset();
-      alert('Your mail is sent!');
-    }
-  }
+      emailjs
+        .sendForm(
+          "service_oqzssfh",
+          "template_4mv15p8",
+          e.target,
+          "user_pKI4L2oq2PTghoyAoFdLt"
+        )
+        .then(
+          (result) => {
+            console.log("SUCCESS!", result.status, result.text);
+          },
+          (error) => {
+            console.log("FAILED...", error);
+          }
+        );
+      e.target.reset();
+      alert("Your mail is sent!");
+    },
+  },
 };
 </script>
+
+<style scoped>
+.input {
+  color: #2F2F28;
+}
+</style>

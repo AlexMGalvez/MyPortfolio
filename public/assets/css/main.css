@@ -108,7 +108,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #0E0E10;
+		background: #2F2F28;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -123,7 +123,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #F0EFFE;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -136,18 +136,18 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #31A2AC;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #F0EFFE !important;
 			text-decoration: none;
 		}
 
 	strong, b {
-		color: #787878;
+		color: #F0EFFE;
 		font-weight: 400;
 	}
 
@@ -160,7 +160,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #9ea18e;
+		color: #F0EFFE;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2257,7 +2257,7 @@ input, select, textarea {
 			}
 
 			ul.labeled-icons li h3 {
-				color: #b2b2b2;
+				color: #F0EFFE;
 				left: 0;
 				position: absolute;
 				text-align: center;
@@ -2650,11 +2650,11 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #F1DCC9;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #F1DCC9;
 		}
 
 		#header h1 {
@@ -2713,13 +2713,13 @@ input, select, textarea {
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
 		z-index: 1;
-		background-color: #0E0E10;
+		background-color: #2F2F28;
 		right: 0px;
 		position: absolute;
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #F0EFFE;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
