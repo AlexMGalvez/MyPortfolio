@@ -1,10 +1,10 @@
 <template>
   <section id="one">
     <header class="major">
-      <h2>
+      <h1>
         I am <strong id="name">Alex Galvez</strong>,<br />
         Full Stack Web Developer
-      </h2>
+      </h1>
     </header>
     <p>
       As both a university and self taught programmer, my focus in web
@@ -31,6 +31,11 @@
 </template>
 
 <style scoped>
+
+h1 {
+  color: #F0EFFE;
+
+}
 #name {
   color: #31A2AC;
 }

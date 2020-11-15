@@ -3,7 +3,7 @@
   <div class="card">
     <div class="card-image"><h1 class="icon solid fa-file-code"></h1></div>
     <div class="card-text">
-      <h5>Front End</h5>
+      <h3>FRONT END</h3>
       <p>
         HTML5 | CSS3<br>
         Vue.js | Vuetify
@@ -14,7 +14,7 @@
   <div class="card">
     <div class="card-image"><h1 class="icon solid fa-code-branch"></h1></div>
     <div class="card-text">
-      <h5>Server</h5>
+      <h3>SERVER</h3>
       <p>
         NodeJS<br>
         Express
@@ -24,7 +24,7 @@
   <div class="card">
     <div class="card-image"><h1 class="icon solid fa-database"></h1></div>
     <div class="card-text">
-      <h5>Database</h5>
+      <h3>DATABASE</h3>
       <p>
         MySQL<br>
         GraphQL
@@ -34,7 +34,7 @@
   <div class="card">
     <div class="card-image"><h1 class="icon solid fa-cloud"></h1></div>
     <div class="card-text">
-      <h5>Deploy</h5>
+      <h3>DEPLOY</h3>
       <p>
        Heroku | Netlify<br>
        Git
@@ -53,10 +53,10 @@
 }
 
 .card {
-  width: 150px;
+  width: 120px;
   height: 250px;
   display: inline-grid;
-  grid-template-columns: 150px;
+  grid-template-columns: 120px;
   grid-template-rows: 100px 250px 80px;
   grid-template-areas: "image" "text";
 
@@ -76,7 +76,7 @@
 
 .card-image h1 {
     color: rgb(175,28,28);
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .card-text {
@@ -89,10 +89,10 @@
   font-size: 15px;
   font-weight: 300;
 }
-.card-text h5 {
-  color: rgb(175,28,28);
+.card-text h3 {
+  color: #F0EFFE;
   margin-top: 0px;
-  font-size: 28px;
+  /* font-size: 28px; */
 }
 
 .card:hover {
