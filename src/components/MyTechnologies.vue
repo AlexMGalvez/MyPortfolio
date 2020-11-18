@@ -5,9 +5,9 @@
     <div class="card-text">
       <h3>FRONT END</h3>
       <p>
+        Javascript<br>
         HTML5 | CSS3<br>
         Vue.js | Vuetify
-
       </p>
     </div>
   </div>
@@ -27,6 +27,7 @@
       <h3>DATABASE</h3>
       <p>
         MySQL<br>
+        MongoDB<br>
         GraphQL
       </p>
     </div>
@@ -36,7 +37,8 @@
     <div class="card-text">
       <h3>DEPLOY</h3>
       <p>
-       Heroku | Netlify<br>
+       Heroku<br>
+       Netlify<br>
        Git
       </p>
     </div>
@@ -54,10 +56,10 @@
 
 .card {
   width: 120px;
-  height: 250px;
+  height: 260px;
   display: inline-grid;
   grid-template-columns: 120px;
-  grid-template-rows: 100px 250px 80px;
+  grid-template-rows: 100px 260px 80px;
   grid-template-areas: "image" "text";
 
   background: #31A2AC;
