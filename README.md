@@ -14,6 +14,6 @@ Website link: http://www.alexgalvez.xyz/
 
 ## Features
 This website includes:
-* Design with 2d animation through p5.js. The animation displayed is a slightly edited version of the particles effect on the p5.js website
+* Design with a 2d animation through p5.js. The animation displayed is a slightly edited version of the particles effect on the p5.js website
 * The emailjs module which allows someone to contact me through form submission via email 
 
