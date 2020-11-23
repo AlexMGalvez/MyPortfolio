@@ -62,9 +62,7 @@
             <h3 class="icon solid fa-envelope">
               <span class="label">Email</span>
             </h3>
-            <a href="mailto:AlexMarkGalvez@hotmail.com"
-              >AlexMarkGalvez@hotmail.com</a
-            >
+            <a href="mailto:AlexGalvez@mail.com">AlexGalvez@mail.com</a>
           </li>
           <li>
             <h3 class="icon brands fa-github">
@@ -108,6 +106,6 @@ export default {
 
 <style scoped>
 .input {
-  color: #2F2F28;
+  color: #2f2f28;
 }
 </style>
