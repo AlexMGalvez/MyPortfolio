@@ -3053,7 +3053,16 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+	}
 
+	@media screen and (min-width: 1800px) {
+			.title {
+				font-size: 60px;
+			}
+			  
+			.title::before {
+				font-size: 100px;
+			}
 	}
 
 /* Large */

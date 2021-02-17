@@ -1,16 +1,16 @@
 <template>
   <section id="one">
     <div class="card">
-    <header class="major">
-      <h1 id="myname">ALEX GALVEZ</h1>
-      <h1 id="position">Full Stack Web Developer</h1>
-    </header>
-    <p>
-      As both a university and self taught programmer, my focus in web
-      development is on producing sites that not only look good, but function
-      well.
-    </p>
-    <!-- <div class="inner">
+      <header class="major">
+        <h1 id="myname">ALEX GALVEZ</h1>
+        <h1 id="position">Full Stack Web Developer</h1>
+      </header>
+      <p>
+        As both a university and self taught programmer, my focus in web
+        development is on producing sites that not only look good, but function
+        well.
+      </p>
+      <!-- <div class="inner">
       <ul class="icons">
         <li>
           <a href="https://github.com/AlexMGalvez" class="icon brands fa-github"
@@ -32,34 +32,23 @@
 
 <style scoped>
 .card {
-  /* width: 120px;
-  height: 260px; */
   position: absolute;
   right: 0px;
-
-  background: rgb(10,0,50);
+  background: rgb(10, 0, 50);
   box-shadow: 5px 5px 15px rgba(12, 8, 8, 0.9);
-  /* text-align: center;
-  transition: 0.5s ease; */
   padding: 30px 48px 10px 200px;
   margin: 0px 0 0px -140px;
-
 }
 
 #myname {
   background-image: linear-gradient(180deg, rgb(10, 0, 50) 10%, #f0effe 100%);
   font-weight: 800;
+  font-size: 68px;
+  margin: 0 0 -40px 0;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-}
-
-@media screen and (max-width: 1800px) {
-  #myname {
-    font-size: 68px;
-    margin: 0 0 -40px 0;
-  }
 }
 
 @media screen and (max-width: 736px) {
@@ -74,6 +63,5 @@
   font-weight: 800;
   color: #f0effe;
   font-family: "Quicksand", sans-serif;
-  /* margin-left: 50px; */
 }
 </style>

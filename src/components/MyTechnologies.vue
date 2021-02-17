@@ -105,9 +105,23 @@
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
-@media screen and (max-width: 500px) {
-.title {
-  padding-top: 330px;
+@media screen and (min-width: 1800px) {
+  .title {
+    padding-top: 330px;
+  }
+
+  .card-image h1 {
+    font-size: 3em;
+  }
+
+  .card-text p { 
+    line-height: 1.6;
+  }
 }
+
+@media screen and (max-width: 500px) {
+  .title {
+    padding-top: 300px;
+  }
 }
 </style>
