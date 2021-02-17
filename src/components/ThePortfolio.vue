@@ -1,6 +1,6 @@
 <template>
   <section id="two">
-    <h2>Recent Work</h2>
+    <h2 class="title" title="PORTFOLIO">Recent work</h2>
     <div class="row">
       <article
         class="col-6 col-12-xsmall work-item"
@@ -27,7 +27,7 @@ export default {
   data: () => ({
     portfolioJSON: [
       {
-        image: "altrogarden.png",
+        image: "altro-garden3.png",
         title: "Altro Garden",
         caption:
           "This front-end focused project is a Jamstack powered website for a small plant nursery to advertise it's stock and take orders for local customers.",

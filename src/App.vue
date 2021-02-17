@@ -1,4 +1,6 @@
 <template>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <the-canvas/>
   <div id="main">
     <the-description></the-description>

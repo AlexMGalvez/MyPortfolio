@@ -1,7 +1,7 @@
 <template>
   <flash-message class="messageSent"></flash-message>
   <section id="three">
-    <h2>Contact me</h2>
+    <h2 class="title" title="INFORMATION">Contact me</h2>
     <p>
       If you have any enquiries, fill out the form below and you'll receive a
       response promptly.
@@ -106,6 +106,6 @@ export default {
 
 <style scoped>
 .input {
-  color: #2f2f28;
+  color: #f0effe;
 }
 </style>

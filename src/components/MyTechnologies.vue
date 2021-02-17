@@ -1,4 +1,5 @@
 <template>
+<h2 class="title" title="TECHNOLOGIES">My skills</h2>
 <div class="wrapper">
   <div class="card">
     <div class="card-image"><h1 class="icon solid fa-file-code"></h1></div>
@@ -48,10 +49,13 @@
 
 <style scoped>
 .wrapper {
-    margin-top: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.title {
+  margin-top: 100px;
 }
 
 .card {
@@ -62,22 +66,20 @@
   grid-template-rows: 100px 260px 80px;
   grid-template-areas: "image" "text";
 
-  background: #31A2AC;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  background: rgba(10,0,50,0.5);
+  box-shadow: 5px 5px 15px rgba(0,0,0, 0.9);
   text-align: center;
   transition: 0.5s ease;
   margin: 10px;
 
 }
 
-
-
 .card-image {
   grid-area: image;
 }
 
 .card-image h1 {
-    color: rgb(175,28,28);
+    color: #F0EFFE;
     font-size: 4em;
 }
 
@@ -94,7 +96,7 @@
 .card-text h3 {
   color: #F0EFFE;
   margin-top: 0px;
-  /* font-size: 28px; */
+  font-size: 18px;
 }
 
 .card:hover {

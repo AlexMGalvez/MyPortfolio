@@ -7,6 +7,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/*
+color scheme:
+#0C0032	rgb(10,0,50)	darkest
+#190061	rgb(25,0,97)
+#240090	rgb(36,0,144)
+#3500D3	rgb(51,0,211)	brightest
+#282828	rgb(40,40,40)	gray
+*/
+
 .p5Canvas {
 	position: fixed;
 	top: 0;
@@ -30,6 +39,32 @@
 	-ms-flex-grow: 1;
 	flex-grow: 1; */
 	margin: 0 0 2em 0;
+}
+
+.title {
+	font-family: "Quicksand", sans-serif;
+	font-size: 35px;
+	font-weight: 800;
+	text-align: center;
+}
+  
+.title::before {
+	font-family: "Roboto", sans-serif;
+	font-size: 60px;
+	font-weight: 800;
+	content: attr(title);
+	position: absolute;
+	left: 50%;
+	white-space: nowrap;
+	transform: translate(-50%, 0%);
+	z-index: -1;
+	background-image: linear-gradient(180deg, rgb(36, 0, 144) 0%, #f0effe 100%);
+	background-size: 100%;
+	opacity: 0.1;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
 }
 
 html, body, div, span, applet, object,
@@ -108,7 +143,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2F2F28;
+		background: black;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -124,7 +159,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #F0EFFE;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -136,7 +171,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #31A2AC;
+		color: rgb(51,0,211);
 		text-decoration: none;
 	}
 
@@ -1842,9 +1877,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
-		border-radius: 0.35em;
-		border: solid 2px transparent;
+		background: rgba(10,0,50,0.5);
+		border-radius: 0.8em;
+		border: solid 1px;
+		border-color: #F0EFFE;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2074,7 +2110,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2498,7 +2534,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(73, 191, 157, 0.1);
+			background-color: rgb(51,0,211);
 			border-color: #49bf9d;
 			color: #49bf9d !important;
 		}
@@ -2619,7 +2655,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+		 background-image: url("images/overlay.png"), url("../../images/bg.jpg"); 
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2713,7 +2749,7 @@ input, select, textarea {
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
 		z-index: 1;
-		background-color: #2F2F28;
+		background-color: rgba(40,40,40,0.7);
 		right: 0px;
 		position: absolute;
 	}
