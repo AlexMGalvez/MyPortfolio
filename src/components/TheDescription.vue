@@ -1,5 +1,6 @@
 <template>
   <section id="one">
+    <div class="card">
     <header class="major">
       <h1 id="myname">ALEX GALVEZ</h1>
       <h1 id="position">Full Stack Web Developer</h1>
@@ -25,10 +26,26 @@
         </li>
       </ul>
     </div> -->
+    </div>
   </section>
 </template>
 
 <style scoped>
+.card {
+  /* width: 120px;
+  height: 260px; */
+  position: absolute;
+  right: 0px;
+
+  background: rgb(10,0,50);
+  box-shadow: 5px 5px 15px rgba(12, 8, 8, 0.9);
+  /* text-align: center;
+  transition: 0.5s ease; */
+  padding: 30px 48px 10px 200px;
+  margin: 0px 0 0px -140px;
+
+}
+
 #myname {
   background-image: linear-gradient(180deg, rgb(10, 0, 50) 10%, #f0effe 100%);
   font-weight: 800;
@@ -45,11 +62,11 @@
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 736px) {
   #myname {
     background-image: linear-gradient(180deg, rgb(10, 0, 50) 0%, #f0effe 100%);
     margin: 0 0 -10px 0;
-    line-height: 0.9;
+    line-height: 0.8;
   }
 }
 

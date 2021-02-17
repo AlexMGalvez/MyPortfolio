@@ -56,6 +56,7 @@
 
 .title {
   margin-top: 100px;
+  padding-top: 230px;
 }
 
 .card {
@@ -66,7 +67,7 @@
   grid-template-rows: 100px 260px 80px;
   grid-template-areas: "image" "text";
 
-  background: rgba(10,0,50,0.5);
+  background: rgb(25,0,97);
   box-shadow: 5px 5px 15px rgba(0,0,0, 0.9);
   text-align: center;
   transition: 0.5s ease;
@@ -102,5 +103,11 @@
 .card:hover {
   transform: scale(1.15);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 500px) {
+.title {
+  padding-top: 330px;
+}
 }
 </style>
