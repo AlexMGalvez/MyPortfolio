@@ -3284,4 +3284,12 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+			.title {
+				font-size: 50px;
+			}
+			  
+			.title::before {
+				font-size: 50px;
+			}
+
 	}

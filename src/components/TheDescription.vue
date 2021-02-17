@@ -1,7 +1,7 @@
 <template>
   <section id="one">
     <header class="major">
-      <h1 id="name">ALEX GALVEZ</h1>
+      <h1 id="myname">ALEX GALVEZ</h1>
       <h1 id="position">Full Stack Web Developer</h1>
     </header>
     <p>
@@ -29,22 +29,27 @@
 </template>
 
 <style scoped>
-#name {
+#myname {
   background-image: linear-gradient(180deg, rgb(10, 0, 50) 10%, #f0effe 100%);
-  font-size: 68px;
   font-weight: 800;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin: 0 0 -40px 0;
 }
 
-@media screen and (max-width:490px){
-    #name {
-        font-size: 55px;
-        margin: 0 0 -30px 0;
-    }  
+@media screen and (max-width: 1800px) {
+  #myname {
+    font-size: 68px;
+    margin: 0 0 -40px 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #myname {
+    font-size: 55px;
+    margin: 0 0 -30px 0;
+  }
 }
 
 #position {

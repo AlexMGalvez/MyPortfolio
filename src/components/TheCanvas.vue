@@ -9,7 +9,7 @@ export default {
       p5.setup = () => {
         p5.createCanvas(window.innerWidth, window.innerHeight);
 
-        for (let i = 0; i < p5.width / 8; i++) {
+        for (let i = 0; i < p5.width / 14; i++) {
           particles1.push(new Particle("background"));
           particles2.push(new Particle("foreground"));
         }
