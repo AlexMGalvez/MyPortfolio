@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 490px) {
   #myname {
-    /* font-size: 55px; */
+    background-image: linear-gradient(180deg, rgb(10, 0, 50) 0%, #f0effe 100%);
     margin: 0 0 -10px 0;
     line-height: 0.9;
   }

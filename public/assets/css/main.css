@@ -3289,7 +3289,7 @@ input, select, textarea {
 			}
 			  
 			.title::before {
-				opacity: 0;
+				font-size: 0px;
 			}
 
 	}
