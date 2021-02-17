@@ -47,8 +47,9 @@
 
 @media screen and (max-width: 490px) {
   #myname {
-    font-size: 55px;
-    margin: 0 0 -30px 0;
+    /* font-size: 55px; */
+    margin: 0 0 -10px 0;
+    line-height: 0.9;
   }
 }
 
