@@ -105,6 +105,10 @@
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
+.icon {
+  background-color: rgb(36,0,144);
+}
+
 @media screen and (min-width: 1800px) {
   .title {
     padding-top: 330px;

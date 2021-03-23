@@ -25,11 +25,11 @@ export default {
 
           if (type == "background") {
             this.colour = "rgba(10,0,50,0.5)";
-            this.xSpeed = p5.random(-0.2, 0.2);
-            this.ySpeed = p5.random(-0.2, 0.5);
+            this.xSpeed = p5.random(-0.1, 0.1);
+            this.ySpeed = p5.random(-0.1, 0.3);
           } else {
             this.colour = "rgba(53,0,211,0.5)";
-            this.xSpeed = p5.random(-1.5, 1.5);
+            this.xSpeed = p5.random(-1, 1);
             this.ySpeed = p5.random(-0.5, 1);
           }
         }

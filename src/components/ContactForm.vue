@@ -17,6 +17,7 @@
                 name="name"
                 id="name"
                 placeholder="Name"
+                required
               />
             </div>
             <div class="col-6 col-12-xsmall">
@@ -26,6 +27,7 @@
                 name="email"
                 id="email"
                 placeholder="Email"
+                required
               />
             </div>
             <div class="col-12">
@@ -35,12 +37,13 @@
                 id="message"
                 placeholder="Message"
                 rows="4"
+                required
               ></textarea>
             </div>
           </div>
         </form>
         <ul class="actions">
-          <li><input type="submit" value="Send Message" form="form1" /></li>
+          <li><input type="submit" value="Send Message" form="form1" class="primary"/></li>
         </ul>
       </div>
       <div class="col-4 col-12-small">
