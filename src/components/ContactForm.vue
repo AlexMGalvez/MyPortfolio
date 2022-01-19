@@ -55,12 +55,12 @@
             Kithener, Ontario<br />
             Canada
           </li>
-          <li>
+          <!-- <li>
             <h3 class="icon solid fa-mobile-alt">
               <span class="label">Phone</span>
             </h3>
-            519-502-8307
-          </li>
+            ###-###-####
+          </li> -->
           <li>
             <h3 class="icon solid fa-envelope">
               <span class="label">Email</span>
