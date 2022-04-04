@@ -120,7 +120,7 @@ export default {
 .colored {
   background-color: #00458b;
   padding: 20px;
-  box-shadow: 5px 5px 15px rgba(12, 8, 8, 0.9);
+  box-shadow: 5px 5px 15px rgba(97, 79, 79, 0.9);
   border-radius: 0px 0 0 50px;
 }
 
