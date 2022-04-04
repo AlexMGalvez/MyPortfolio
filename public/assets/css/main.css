@@ -2762,6 +2762,7 @@ input, select, textarea {
 		background-color: var(--color2);
 		right: 0px;
 		position: absolute;
+		box-shadow: 5px 5px 15px rgba(12, 8, 8, 0.9);
 	}
 
 		#main > section {
