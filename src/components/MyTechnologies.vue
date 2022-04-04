@@ -8,7 +8,7 @@
       <p>
         Javascript<br>
         HTML5 | CSS3<br>
-        Vue.js | Vuetify
+        React | Vue.js
       </p>
     </div>
   </div>
@@ -66,12 +66,12 @@
   grid-template-columns: 120px;
   grid-template-rows: 100px 260px 80px;
   grid-template-areas: "image" "text";
-
-  background: rgb(25,0,97);
+  background: #99DDFF;
   box-shadow: 5px 5px 15px rgba(0,0,0, 0.9);
   text-align: center;
   transition: 0.5s ease;
   margin: 10px;
+  border-radius: 50px 0 0 50px;
 
 }
 
@@ -90,12 +90,12 @@
 }
 
 .card-text p {
-  color: #F0EFFE;
+  color: black;
   font-size: 15px;
   font-weight: 300;
 }
 .card-text h3 {
-  color: #F0EFFE;
+  color: black;
   margin-top: 0px;
   font-size: 18px;
 }
@@ -106,7 +106,7 @@
 }
 
 .icon {
-  background-color: rgb(36,0,144);
+  background-color: #00458B;
 }
 
 @media screen and (min-width: 1800px) {

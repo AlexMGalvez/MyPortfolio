@@ -31,17 +31,22 @@
 </template>
 
 <style scoped>
+p {
+  color: white;
+}
+
 .card {
   position: absolute;
   right: 0px;
-  background: rgb(10, 0, 50);
+  background: #00458B;
   box-shadow: 5px 5px 15px rgba(12, 8, 8, 0.9);
   padding: 30px 48px 10px 200px;
   margin: 0px 0 0px -140px;
+  border-radius: 0px 0 0 50px;
 }
 
 #myname {
-  background-image: linear-gradient(180deg, rgb(10, 0, 50) 10%, #f0effe 100%);
+  background-image: linear-gradient(180deg, #2FD2C7 10%, #00458B 100%);
   font-weight: 800;
   font-size: 68px;
   margin: 0 0 -40px 0;
@@ -53,7 +58,7 @@
 
 @media screen and (max-width: 736px) {
   #myname {
-    background-image: linear-gradient(180deg, rgb(10, 0, 50) 0%, #f0effe 100%);
+    background-image: linear-gradient(180deg, #2FD2C7 0%, #00458B 100%);
     margin: 0 0 -10px 0;
     line-height: 0.8;
   }

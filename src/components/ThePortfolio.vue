@@ -2,29 +2,51 @@
   <section id="two">
     <h2 class="title" title="PORTFOLIO">Recent work</h2>
     <div class="row">
-      <article
-        class="col-6 col-12-xsmall work-item"
-        v-for="(obj, key) in portfolioJSON"
-        :key="key"
-      >
-        <a :href="obj.websiteLink" class="image fit thumb">
-          <img :src="'images/thumbs/' + obj.image" alt="" />
-        </a>
-        <p>{{ obj.caption }}<br><br></p>
+      <template v-for="(obj, key) in portfolioJSON" :key="key">
+        <article
+          class="col-6 col-12-xsmall work-item"
+          
+        >
+        <div v-bind:class="{ colored: key == 1 || key == 2 || key == 5 }">
+          <a :href="obj.websiteLink" class="image fit thumb">
+            <img :src="'images/thumbs/' + obj.image" alt="" />
+          </a>
+          <p>{{ obj.caption }}<br /><br /></p>
 
-        <p>{{ obj.demoText }}<br><br></p>
-        <a v-on:click="toggle(obj.demo)" class="button primary small" value="Demo">Demo</a><br><br>
-        <div class="demo" :id="obj.demo">
-          <video :src="'videos/' + obj.demo" :id="'video' + obj.demo" controls="true"></video>
-          <img v-on:click="toggle(obj.demo)" src="images/close.png" class="close">
-        </div>
+          <p>{{ obj.demoText }}</p>
+          <div v-if="obj.demo.length != 0">
+            <br />
+            <a
+              v-on:click="toggle(obj.demo)"
+              class="button primary small"
+              value="Demo"
+              >Demo</a
+            ><br /><br />
+            <div class="demo" :id="obj.demo">
+              <video
+                :src="'videos/' + obj.demo"
+                :id="'video' + obj.demo"
+                controls="true"
+              ></video>
+              <img
+                v-on:click="toggle(obj.demo)"
+                src="images/close.png"
+                class="close"
+              />
+            </div>
+          </div>
 
-        <p>Technologies used:<br> {{ obj.technologies }}<br><br></p>
-        <p id="link">
-          Source Code:
-          <a :href="obj.githubLink" class="">{{ obj.githubLink }}</a>
-        </p>
-      </article>
+          <p>
+            Technologies used:<br />
+            {{ obj.technologies }}<br /><br />
+          </p>
+          <p id="link">
+            Source Code:
+            <a :href="obj.githubLink" class="">{{ obj.githubLink }}</a>
+          </p>
+          </div>
+        </article>
+      </template>
     </div>
   </section>
 </template>
@@ -34,15 +56,28 @@ export default {
   data: () => ({
     portfolioJSON: [
       {
-        image: "altro-garden3.png",
+        image: "timesseriesmath.png",
+        title: "Time Series Math",
+        caption:
+          "A javascript developer's resource for mathematically manipulating time series data. This website is a work in progress.",
+        websiteLink: "https://timeseriesmathematics.netlify.app/",
+        githubLink: "https://github.com/AlexMGalvez/TimeSeriesMathematics",
+        technologies: "React, Chart.js",
+        demoText: "",
+        demo: "",
+      },
+      {
+        image: "altro-garden2.png",
         title: "Altro Garden",
         caption:
           "A jamstack powered e-commerce platform for a plant nursery to advertise it's stock and take orders for local customers.",
         websiteLink: "https://altrogarden.netlify.app/",
         githubLink: "https://github.com/AlexMGalvez/AltroGarden",
-        technologies: "Vue.js, Gridsome, Strapi CMS, Vuetify, GraphQL, Snipcart, MongoDB",
-        demoText: "This demo is a brief look into cart usage, product search queries, and checkout.",
-        demo: "altrogarden1.mp4"
+        technologies:
+          "Vue.js, Gridsome, Strapi CMS, Vuetify, GraphQL, Snipcart, MongoDB",
+        demoText:
+          "This demo is a brief look into cart usage, product search queries, and checkout.",
+        demo: "altrogarden1.mp4",
       },
       {
         image: "djmichaeltoor.png",
@@ -52,27 +87,49 @@ export default {
         websiteLink: "https://djmichaeltoor.herokuapp.com/",
         githubLink: "https://github.com/AlexMGalvez/DJMichaelToor",
         technologies: "NodeJS, Express, MySQL, Bootstrap4",
-        demoText: "This demo is a look into the custom-built content management system, database manipulation, and administrator options. Admin authentication and authorization are demonstrated.",
-        demo: "djmichaeltoor1.mp4"
+        demoText:
+          "This demo is a look into the custom-built content management system, database manipulation, and administrator options. Admin authentication and authorization are demonstrated.",
+        demo: "djmichaeltoor1.mp4",
       },
     ],
   }),
   methods: {
     toggle: (demoObj) => {
-      let demo = document.getElementById(demoObj)
-      demo.classList.toggle("active")
-      let video = document.getElementById("video" + demoObj)
-      video.classList.toggle("active")
+      let demo = document.getElementById(demoObj);
+      demo.classList.toggle("active");
+      let video = document.getElementById("video" + demoObj);
+      video.classList.toggle("active");
       video.pause();
       video.currentTime = 0;
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style scoped>
 #link {
   margin-top: 8px;
+
+  text-overflow: ellipsis;
+
+  /* Needed to make it work */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.colored {
+  background-color: #00458b;
+  padding: 20px;
+  box-shadow: 5px 5px 15px rgba(12, 8, 8, 0.9);
+  border-radius: 0px 0 0 50px;
+}
+
+.colored p {
+  color: white;
+}
+
+.colored a {
+  color: #2FD2C7;
 }
 
 .demo {
@@ -81,7 +138,7 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10000;
-  background: rgba(0,0,0,0.95);
+  background: rgba(0, 0, 0, 0.95);
   width: 100%;
   height: 100%;
   display: flex;

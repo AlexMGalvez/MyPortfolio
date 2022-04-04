@@ -7,8 +7,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+:root {
+	--color1: #00458B;
+	--color2: #2FD2C7;
+	--color3: #99DDFF;
+  }
+  
 /*
-color scheme:
+color scheme old:
 #0C0032	rgb(10,0,50)	darkest
 #190061	rgb(25,0,97)
 #240090	rgb(36,0,144)
@@ -58,7 +64,7 @@ color scheme:
 	white-space: nowrap;
 	transform: translate(-50%, 0%);
 	z-index: -1;
-	background-image: linear-gradient(180deg, rgb(36, 0, 144) 0%, #f0effe 100%);
+	background-image: linear-gradient(180deg, black 0%, var(--color2) 100%);
 	background-size: 100%;
 	opacity: 0.1;
 	-webkit-background-clip: text;
@@ -143,7 +149,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: black;
+		background: var(--main-bg-color);;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -158,7 +164,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #F0EFFE;
+		color: black;
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -171,8 +177,9 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: rgb(51,0,211);
+		color: var(--color1);
 		text-decoration: none;
+		
 	}
 
 		a:hover {
@@ -195,7 +202,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #F0EFFE;
+		color: var(--color1);
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -357,6 +364,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		
 	}
 
 		.row > * {
@@ -1877,7 +1885,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(10,0,50,0.5);
+		background: var(--color1);
 		border-radius: 0.8em;
 		border: solid 1px;
 		border-color: #F0EFFE;
@@ -2506,7 +2514,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
-		border-radius: 0.35em;
+
 		border: solid 3px #efefef;
 		color: #787878 !important;
 		cursor: pointer;
@@ -2535,7 +2543,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgb(51,0,211);
+			background-color: var(--color3);
 			border-color: #49bf9d;
 			color: #49bf9d !important;
 		}
@@ -2580,17 +2588,18 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: rgb(25,0,97);
-			border-color: rgb(25,0,97);
-			color: #ffffff !important;
+			background-color: var(--color3);
+			border-color: var(--color3);
+			color: black !important;
+			border-radius:15px;
 		}
 
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: rgb(51,0,211);
-				border-color: rgb(51,0,211);
+				background-color: var(--color2);
+				border-color: var(--color2);
 			}
 
 			input[type="submit"].primary:active,
@@ -2750,7 +2759,7 @@ input, select, textarea {
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
 		z-index: 1;
-		background-color: rgba(40,40,40,0.7);
+		background-color: var(--color2);
 		right: 0px;
 		position: absolute;
 	}
