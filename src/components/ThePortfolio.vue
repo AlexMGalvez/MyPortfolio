@@ -56,15 +56,15 @@ export default {
   data: () => ({
     portfolioJSON: [
       {
-        image: "timesseriesmath.png",
+        image: "tsm1.png",
         title: "Time Series Math",
         caption:
-          "A javascript developer's resource for mathematically manipulating time series data. This website is a work in progress.",
+          "A javascript developer's online resource for mathematically manipulating time series data. This website is a work in progress.",
         websiteLink: "https://timeseriesmathematics.netlify.app/",
         githubLink: "https://github.com/AlexMGalvez/TimeSeriesMathematics",
         technologies: "React, Chart.js",
-        demoText: "",
-        demo: "",
+        demoText: "The demo provides a brief look at the walk-through guide for computing support and resistance lines for time series data. A user interface demonstates the finished result.",
+        demo: "tsm1.mp4",
       },
       {
         image: "altro-garden2.png",
@@ -83,12 +83,12 @@ export default {
         image: "djmichaeltoor.png",
         title: "DJ Michael Toor",
         caption:
-          "A DJ website which allows the DJ to advertise himself by presenting his music, bio, personal studio and performed gigs to potential clients.",
+          "A Cambridge DJ's website which allows him to advertise himself by presenting his music, bio, personal studio and performed gigs to potential clients.",
         websiteLink: "https://djmichaeltoor.herokuapp.com/",
         githubLink: "https://github.com/AlexMGalvez/DJMichaelToor",
         technologies: "NodeJS, Express, MySQL, Bootstrap4",
         demoText:
-          "This demo is a look into the custom-built content management system, database manipulation, and administrator options. Admin authentication and authorization are demonstrated.",
+          "This demo is a look into the custom-built content management system, database manipulation, and administrator options. Admin authentication and authorization is demonstrated.",
         demo: "djmichaeltoor1.mp4",
       },
     ],
