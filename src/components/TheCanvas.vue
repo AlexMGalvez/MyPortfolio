@@ -20,7 +20,7 @@ export default {
           cells[r] = [];
           for (let c = 0; c < columns; c++) {
             cells[r][c] = [p5.random(0, 255), 221, 255];
-            if (p5.random() <= 0.2) {
+            if (p5.random() <= 0.5) {
               // animated cell
               if (p5.random() <= 0.5) {
                 cells[r][c].push(0);

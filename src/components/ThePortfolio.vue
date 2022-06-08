@@ -56,6 +56,17 @@ export default {
   data: () => ({
     portfolioJSON: [
       {
+        image: "wyckoff-ai.png",
+        title: "Wyckoff AI",
+        caption:
+          "An AI-assisted stock trader's financial instrument for executing client-side stock pattern classifications with the use of an LSTM recurrent neural network. The model is currently under development and suffers from under fitting due to a presumable severe lack of training data but shows promising loss function improvements with the expansion of data.",
+        websiteLink: "https://wyckoff-ai.netlify.app/",
+        githubLink: "https://github.com/AlexMGalvez/wyckoff-ai-website",
+        technologies: "Tensorflow.js, Next.js, React, Redux, react-stockcharts, two finance apis",
+        demoText: "This demo demonstrates the fetching of financial data, stock chart rendering, pre-trained model loading, and ML pattern classification. Api fetch calls are currently disabled and only dummy data is inputted into the model.",
+        demo: "wyckoff-ai.mp4",
+      },
+      {
         image: "tsm1.png",
         title: "Time Series Math",
         caption:
@@ -63,7 +74,7 @@ export default {
         websiteLink: "https://timeseriesmathematics.netlify.app/",
         githubLink: "https://github.com/AlexMGalvez/TimeSeriesMathematics",
         technologies: "React, Chart.js",
-        demoText: "The demo provides a brief look at the walk-through guide for computing support and resistance lines for time series data. A user interface demonstates the finished result.",
+        demoText: "This demo provides a brief look at the walk-through guide for computing support and resistance lines for time series data. A user interface demonstates the finished result.",
         demo: "tsm1.mp4",
       },
       {
