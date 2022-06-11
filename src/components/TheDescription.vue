@@ -6,9 +6,7 @@
         <h1 id="position">Full Stack Web Developer</h1>
       </header>
       <p>
-        As both a university and self taught programmer, my focus in web
-        development is on producing sites that not only look good, but function
-        well.
+        A university and self taught programmer with skills ranging from design, performance, security and machine learning.
       </p>
       <!-- <div class="inner">
       <ul class="icons">
