@@ -6,7 +6,7 @@
         <h1 id="position">Full Stack Web Developer</h1>
       </header>
       <p>
-        A university and self taught programmer with skills ranging from design, performance, security and machine learning.
+        A university and self taught programmer with skills ranging from design, performance, security and machine learning. My background experience is in enterprise resource planning and web development.
       </p>
       <!-- <div class="inner">
       <ul class="icons">

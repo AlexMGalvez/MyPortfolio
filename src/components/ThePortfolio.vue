@@ -74,7 +74,7 @@ export default {
         websiteLink: "https://timeseriesmathematics.netlify.app/",
         githubLink: "https://github.com/AlexMGalvez/TimeSeriesMathematics",
         technologies: "React, Chart.js",
-        demoText: "This demo provides a brief look at the walk-through guide for computing support and resistance lines for time series data. A user interface demonstates the finished result.",
+        demoText: "This demo provides a brief look at the walk-through guide for computing support and resistance lines for time series data. A user interactive module is demonstrated.",
         demo: "tsm1.mp4",
       },
       {
