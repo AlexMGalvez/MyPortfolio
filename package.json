@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --openssl-legacy-provider",
     "lint": "vue-cli-service lint",
     "start": "node server.js"
   },
@@ -13,7 +13,6 @@
     "emailjs-com": "^2.6.3",
     "express": "^4.17.1",
     "p5": "^1.1.9",
-    "postcss": "^8.4.33",
     "save": "^2.4.0",
     "serve-static": "^1.14.1",
     "vue": "^3.0.0"
